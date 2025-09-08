@@ -6,13 +6,13 @@ Discogs themselves offer a feature to export CSV but it doesn't let you export s
 
 ## Usage
 
-1) Get a personal access token [in your Discogs preference](https://www.discogs.com/settings/developers), and copy it inside the **vinylsget.py** file.
+1. Get a personal access token [in your Discogs preference](https://www.discogs.com/settings/developers).
 
-2) `pip install discogs_client`
+2. `pip install discogs_client` OR `uv sync`
 
-3) `python3 vinylsget.py`
+3. `python3 main.py`
 
-4) open `collection.csv` in your favourite spreadsheet editor.
+4. open `collection.csv` in your favourite spreadsheet editor.
 
 ## Todo
 
