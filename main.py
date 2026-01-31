@@ -1,10 +1,9 @@
-# pip install discogs_client
-
 import discogs_client
 import csv
 import getpass
+import os
 
-userToken = getpass.getpass("Enter your Discogs user token: ")
+userToken = os.environ.get('DISCOGS_USER_TOKEN') or getpass.getpass("Enter your Discogs user token: ")
 
 if userToken == "":
     exit("Whoops, you need to set your user token.")
